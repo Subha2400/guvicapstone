@@ -7,6 +7,7 @@ IMAGE_NAME="devops_app"
 TAG="latest" 
 DOCKERFILE_PATH="."
 REGISTRY="docker.io"
+NAME="subha"
 
 # Full image name with registry
 IMAGE="${REGISTRY}/${DOCKER_USERNAME}/${IMAGE_NAME}:${TAG}"
